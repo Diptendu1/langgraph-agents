@@ -10,7 +10,7 @@ from langchain.chat_models import init_chat_model
 class Agent2:
 
     def __init__(self):
-        os.environ["GOOGLE_API_KEY"] = "AIzaSyChOUEIJfJ3CdoK4xxrRW_ecNi6ZcZlctI"
+        os.environ["GOOGLE_API_KEY"] = ""
 
     def chat_without_memory(self):
         llm_agent = ChatGoogleGenerativeAI(model="gemini-3-flash", temperature=0.7)
