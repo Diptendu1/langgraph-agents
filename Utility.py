@@ -13,7 +13,7 @@ class Utility:
     def get_vector_store(self):
         embeddings = GoogleGenerativeAIEmbeddings(
             model="models/gemini-embedding-001",
-            google_api_key="AIzaSyChOUEIJfJ3CdoK4xxrRW_ecNi6ZcZlctI",
+            google_api_key="",
             task_type="retrieval_document",
             output_dimensionality=768
         )
