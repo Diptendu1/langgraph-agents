@@ -13,7 +13,7 @@ from langchain.messages import ToolMessage
 
 class langgraph_ag_2_tr:
 
-    os.environ["GOOGLE_API_KEY"] = "AIzaSyChOUEIJfJ3CdoK4xxrRW_ecNi6ZcZlctI"
+    os.environ["GOOGLE_API_KEY"] = ""
 
     model = init_chat_model(
         "google_genai:gemini-2.5-flash-lite",
