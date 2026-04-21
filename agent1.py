@@ -3,7 +3,7 @@ from langchain.agents import create_agent
 import os
 from langchain_google_genai import ChatGoogleGenerativeAI
 
-os.environ["GOOGLE_API_KEY"] = "AIzaSyChOUEIJfJ3CdoK4xxrRW_ecNi6ZcZlctI"
+os.environ["GOOGLE_API_KEY"] = ""
 class Agent1:
 
     @tool
